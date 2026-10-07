@@ -1,0 +1,31 @@
+.root-pane {
+    -fx-font-size: 14px;
+    -fx-background-color: #f7f8fa;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3a5f;
+}
+
+.button {
+    -fx-background-color: #1f3a5f;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button:hover { -fx-background-color: #2c527f; }
+.button:disabled { -fx-opacity: 0.45; }
+
+/* Keep the keyboard focus indicator clearly visible */
+.text-field:focused, .combo-box:focused, .button:focused {
+    -fx-border-color: #e08a00;
+    -fx-border-width: 2;
+}
+
+.status { -fx-font-weight: bold; -fx-min-height: 20px; }
+.status-ok { -fx-text-fill: #1b7a3a; }
+.status-error { -fx-text-fill: #b3261e; }
+
+.hint { -fx-text-fill: #555555; -fx-font-size: 12px; }
